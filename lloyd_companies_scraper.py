@@ -244,5 +244,3 @@ def scrape_all_pages(alphabet_list):
 alphabet_list = string.ascii_uppercase
 final_data = scrape_all_pages(alphabet_list)
 df = pd.DataFrame(final_data)
-df
-
